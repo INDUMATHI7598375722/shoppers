@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser opened Successfully ]]>
+    </line>
+    <line>
+      <![CDATA[Logged in Successfully ]]>
+    </line>
+    <line>
+      <![CDATA[Address Deleted Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Logged out Successfully]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed Successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-09T10:01:38 IST" name="Default suite" finished-at="2024-03-09T10:02:22 IST" duration-ms="44095">
+    <groups>
+    </groups>
+    <test started-at="2024-03-09T10:01:38 IST" name="Default test" finished-at="2024-03-09T10:02:22 IST" duration-ms="44095">
+      <class name="actualtestscript.DeleteAddressTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:actualtestscript.DeleteAddressTest@1530c739]" started-at="2024-03-09T10:01:38 IST" name="openBrowser" finished-at="2024-03-09T10:02:10 IST" duration-ms="32290" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser opened Successfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:actualtestscript.DeleteAddressTest@1530c739]" started-at="2024-03-09T10:02:10 IST" name="login" finished-at="2024-03-09T10:02:11 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged in Successfully ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="deleteAddressTest()[pri:0, instance:actualtestscript.DeleteAddressTest@1530c739]" started-at="2024-03-09T10:02:11 IST" name="deleteAddressTest" finished-at="2024-03-09T10:02:14 IST" duration-ms="2966" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Address Deleted Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAddressTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:actualtestscript.DeleteAddressTest@1530c739]" started-at="2024-03-09T10:02:14 IST" name="logout" finished-at="2024-03-09T10:02:22 IST" duration-ms="8219" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logged out Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:actualtestscript.DeleteAddressTest@1530c739]" started-at="2024-03-09T10:02:22 IST" name="closeBrowser" finished-at="2024-03-09T10:02:22 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Closed Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- actualtestscript.DeleteAddressTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
